@@ -5,7 +5,7 @@
 using namespace std;
 
 namespace customer {
-	void getCustomerNumber() {
+	void getCustomerNumber() { // asks customer for their number until it's validated
 		string customerNumber;
 		while(true){
 			cout << "what is your customer number (should be two letters and four digits)?" << endl;

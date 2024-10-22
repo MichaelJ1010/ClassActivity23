@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace validate {
-	bool validateNumber(string customerNumber) {
+	bool validateNumber(string customerNumber) { // ensures that the number provided is in the correct format
 		if (customerNumber.length() != 6) {
 			return false;
 		}
